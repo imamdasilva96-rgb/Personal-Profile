@@ -1132,3 +1132,34 @@ footer {
     }
 
 }
+
+/* =========================
+   PERBAIKAN NAVBAR DESKTOP
+========================= */
+
+@media (min-width: 769px) {
+
+    .hamburger {
+        display: none !important;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-logo {
+        flex-shrink: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .nav-menu a {
+        display: inline-block;
+    }
+}
