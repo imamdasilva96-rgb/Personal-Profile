@@ -58,17 +58,18 @@ nav a:hover {
    HERO
 ========================= */
 
-#beranda {
-    min-height: 520px;
 
+#beranda {
     background: #0f172a;
     color: white;
 
-    padding: 80px 8%;
-
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+
+    min-height: 520px;
+
+    padding: 120px 8% 80px;
 
     gap: 60px;
 }
@@ -962,17 +963,16 @@ nav h2 {
        HERO
     ========================= */
 
-    #beranda {
-        flex-direction: column-reverse;
 
-        text-align: center;
+   #beranda {
+    flex-direction: column-reverse;
+    text-align: center;
 
-        padding: 70px 5%;
+    padding: 110px 5% 70px;
 
-        gap: 40px;
-
-        min-height: auto;
-    }
+    gap: 40px;
+    min-height: auto;
+   }
 
 
     /* FOTO PROFIL */
